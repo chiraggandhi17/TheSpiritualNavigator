@@ -1,0 +1,6 @@
+# This tells Netlify how to build and deploy your site.
+[build]
+  # The folder with your frontend files (index.html, etc.)
+  publish = "public"
+  # The folder where your Python serverless functions are
+  functions = "netlify/functions"

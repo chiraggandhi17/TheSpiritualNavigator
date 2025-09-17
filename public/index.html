@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiritual Navigator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>🧘 Spiritual Navigator</h1>
+        <p class="caption">An interactive guide to ancient wisdom on modern emotions.</p>
+        
+        <form id="vritti-form">
+            <input type="text" id="vritti-input" placeholder="Enter an emotion (e.g., Anger)" required>
+            <button type="submit">Begin Exploration</button>
+        </form>
+
+        <div id="results-container">
+            </div>
+
+        <div id="loader" class="hidden">
+            <div class="spinner"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
